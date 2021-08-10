@@ -1,0 +1,35 @@
+.chatContainer {
+    height: 87vh;
+    width: 100%;
+    overflow: auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.messageBox {
+    cursor: pointer;
+    display: block;
+    background: #252525;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-top: 17px;
+    padding: 12px 12px 3px 12px;
+}
+
+.messageText {
+    display: inline-block;
+    text-align: left;
+    color: #D3D3D3;
+    font-size: 17px;
+    margin: 0 75px 0 0;
+}
+
+.messageDate {
+    text-align: right;
+    margin: 0 5px 5px 0;
+    color: #666666;
+    font-size: 12px;
+}

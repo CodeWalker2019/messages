@@ -1,0 +1,29 @@
+.inputContainer {
+    position: sticky;
+    margin: 0 auto 10px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 0 10px 10px 10px;
+}
+
+.input {
+    font-size: 18px;
+    outline: none;
+    margin: 0 auto;
+    padding-right: 60px;
+    background: #252525;
+    width: 100%;
+    border: none;
+    height: 70px;
+    border-radius: 15px;
+    padding-left: 15px;
+    color: white;
+}
+
+.send {
+    position: absolute;
+    right: 35px;
+    top: 25px;
+    cursor: pointer;
+}
